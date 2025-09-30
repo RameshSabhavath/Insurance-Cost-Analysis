@@ -1,5 +1,4 @@
-# Insurance-Cost-Analysis
-Data Analysis with Python
+# Insurance-Cost-Analysis with Python
 
 Project Overview
 
