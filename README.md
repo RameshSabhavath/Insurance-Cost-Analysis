@@ -37,4 +37,5 @@ Conduct analytical study on a curated medical insurance charges dataset. Dataset
 ✅ Achieved 85% R² accuracy using Linear, Polynomial & Ridge Regression. Identified smoking, BMI & age as key cost drivers, enabling optimized pricing strategies.  
 ✅ Built predictive models using Python, Pandas, Matplotlib, Seaborn, and Scikit-learn; achieved 85% (R²) accuracy in forecasting insurance costs.  
 ✅ Uncovered key cost drivers (smoking, BMI, age) and delivered insights to optimize pricing strategies and reduce financial risks.  
+✅ Smoking (~55%), BMI (~20%), and age (~15%) emerged as dominant cost drivers, jointly shaping most of the prediction power.     
 ✅ Final Accuracy Achieved : ~85% (R² = 0.8537)
