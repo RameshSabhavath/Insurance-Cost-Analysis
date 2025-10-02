@@ -1,16 +1,11 @@
-# Insurance-Cost-Analysis with Python
+# 📌 Insurance-Cost-Analysis with Python
 
-Project Overview
+Project Overview :
 
-### Insurance Cost Analysis
-
-Conduct analytical study on a curated medical insurance charges dataset
-Dataset adapted from Medical Insurance Price Prediction
-
+Conduct analytical study on a curated medical insurance charges dataset. Dataset adapted from Medical Insurance Price Prediction
 ### Objective : 
 • Identify primary factors affecting insurance costs and develop predictive models
-
-### Tools & Technologies
+### 🛠 Tools & Technologies
 • Python v3.12.2 – programming environment
 • Pandas – data manipulation and preprocessing  
 • NumPy – statistical and mathematical operations    
@@ -18,22 +13,28 @@ Dataset adapted from Medical Insurance Price Prediction
 • Seaborn – advanced data visualization     
 • Matplotlib – flexible plotting and charting
 
-### Deliverables
+### 📊 Dashboards & Analysis
 
-• Load and clean dataset (handle missing values)    
-• Perform Exploratory Data Analysis (EDA) to identify key cost drivers   
-• Build univariate and multivariate Linear Regression models  
-• Apply Ridge Regression for improved model robustness  
-• Develop regression-based predictive model
+* Exploratory Data Analysis (EDA):
+* Visualized distributions of charges by smoker status, BMI ranges, and regions.
+* Correlation heatmaps identified smoking & BMI as dominant predictors of cost.
+  
+💫 Project Achievements 
 
+→ Identified key cost drivers: smoking status (strongest), BMI, age, and number of children significantly impact insurance charges.  
+→ Developed Linear Regression model with only smoker attribute → R² = 0.62 (baseline).   
+→ Expanded to all features → R² improved to 0.75, showing better prediction power.    
+→ Applied Polynomial Regression → achieved R² = 0.84, capturing non-linear relationships.    
+→ Used Ridge Regression with Polynomial Features → further improved to R² = 0.85, reducing overfitting.
 
-### Analytical Proces
+### 📈 Trend Analysis:
+* Insurance cost increases with age & BMI.
+* Smokers incur ~79% higher charges on average.
+* Regional variation minimal, indicating location is less significant.
 
-• Import dataset into a Pandas DataFrame
-• Clean and preprocess data (address missing/inconsistent entries)   
-• Perform Exploratory Data Analysis (EDA)   
-• Construct regression models:  
-• Univariate Linear Regression  
-• Multivariate Linear Regression
-• Analysing the patterns by vizualizing the data from various columns  
-• Apply Ridge Regression to reduce multicollinearity and enhance accuracy
+### 🔹 Project Findings & Outcomes
+
+✅ Achieved 85% R² accuracy using Linear, Polynomial & Ridge Regression. Identified smoking, BMI & age as key cost drivers, enabling optimized pricing strategies.  
+✅ Built predictive models using Python, Pandas, Matplotlib, Seaborn, and Scikit-learn; achieved 85% (R²) accuracy in forecasting insurance costs.  
+✅ Uncovered key cost drivers (smoking, BMI, age) and delivered insights to optimize pricing strategies and reduce financial risks.  
+✅ Final Accuracy Achieved : ~85% (R² = 0.8537)
